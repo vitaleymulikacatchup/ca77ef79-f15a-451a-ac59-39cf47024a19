@@ -357,8 +357,6 @@ export default function Home() {
 
       <div id="footer" data-section="footer">
         <FooterBase
-          brandName="Roasted Bliss"
-          copyrightText="© 2025 | Roasted Bliss Coffee"
           columns={[
             {
               title: "Visit Us",
