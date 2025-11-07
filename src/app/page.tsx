@@ -1,4 +1,4 @@
-"use client"
+"use client";
 
 import { ThemeProvider } from "@/providers/themeProvider/ThemeProvider";
 import NavbarStyleMinimal from '@/components/navbar/NavbarStyleMinimal';
@@ -7,7 +7,7 @@ import TagAbout from '@/components/sections/about/TagAbout';
 import FeatureCardOne from '@/components/sections/feature/FeatureCardOne';
 import ProductCardTwo from '@/components/sections/product/ProductCardTwo';
 import PricingCardThree from '@/components/sections/pricing/PricingCardThree';
-import MetricCardTwo from '@/components/sections/metric/MetricCardTwo';
+import MetricCardTwo from '@/components/sections/metrics/MetricCardTwo';
 import TestimonialCardTwo from '@/components/sections/testimonial/TestimonialCardTwo';
 import FaqSplitMedia from '@/components/sections/faq/FaqSplitMedia';
 import ContactSplitForm from '@/components/sections/contact/ContactSplitForm';
@@ -146,7 +146,7 @@ export default function Home() {
               buttons: [
                 {
                   text: "Order Now",
-                  onClick: "() => console.log('Order espresso')"
+                  onClick: () => console.log('Order espresso')
                 },
                 {
                   text: "Learn More",
@@ -169,7 +169,7 @@ export default function Home() {
               buttons: [
                 {
                   text: "Order Now",
-                  onClick: "() => console.log('Order latte')"
+                  onClick: () => console.log('Order latte')
                 },
                 {
                   text: "Customize",
@@ -190,7 +190,7 @@ export default function Home() {
               buttons: [
                 {
                   text: "Order Now",
-                  onClick: "() => console.log('Order cold brew')"
+                  onClick: () => console.log('Order cold brew')
                 },
                 {
                   text: "Details",
